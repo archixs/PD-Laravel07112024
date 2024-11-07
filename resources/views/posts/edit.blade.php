@@ -1,7 +1,7 @@
 <x-app-layout>
     <h1>Edit post</h1>
 
-    <form action="/posts" method="put">
+    <form action="/posts" method="PUT">
         @csrf
         @method('PUT')
         <label for="title">Title: </label>

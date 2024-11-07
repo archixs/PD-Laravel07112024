@@ -10,7 +10,7 @@
                     <a href="/posts/{{ $post->id }}/show">Show</a>
                     <a href="/posts/{{ $post->id }}/edit">Edit</a>
         
-                    <a href="/posts/{{  }}">Delete</a>
+                    <a href="/posts/{{ $post->id }}">Delete</a>
                 </div>
             </li>   
         @endforeach
